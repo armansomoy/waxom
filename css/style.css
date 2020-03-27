@@ -1,0 +1,555 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    text-decoration-style: none;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+/*===== Common css Ends =====*/
+
+/*===== navbar part css start =====*/
+.navbar {
+    padding-top: 35px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    transition: all linear .3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c7b299;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*===== navbar part css start =====*/
+
+/*===== banner part css start =====*/
+#banner {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1023px;
+    position: relative;
+}
+
+#banner .banner_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+}
+
+.banner_item {
+    padding-bottom: 25px;
+}
+
+.banner_item h3 {
+    padding-top: 340px;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 6px;
+}
+
+.banner_item h1 {
+    font-size: 52px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 14px;
+}
+
+.banner_item p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 55px;
+}
+
+.banner_item a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 21px 38px;
+    border-radius: 3px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+}
+
+/*===== banner part css ends =====*/
+
+
+/*===== service part css start =====*/
+#service {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.service-item i {
+    font-size: 48px;
+    color: #555;
+    transition: all linear .3s;
+}
+
+.service-item h3 {
+    font-size: 22px;
+    color: #555;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    padding-top: 24px;
+}
+
+.service-item p {
+    font-size: 14px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 12px;
+    line-height: 24px;
+    transition: all linear .3s;
+}
+
+.service-item:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 70px;
+    height: 3px;
+    transform: translateX(-50%);
+    background-color: #f1eee9;
+    transition: all linear .3s;
+}
+
+.service-item:hover i {
+    color: #c7b299;
+}
+
+.service-item:hover h3 {
+    color: #c7b299;
+}
+
+.service-item:hover p {
+    color: #c7b299;
+}
+
+.service-item:hover:after {
+    background-color: #c7b299;
+}
+
+/*===== service part css ends =====*/
+
+
+/*===== idea part css start =====*/
+#idea {
+    background-color: #fbfaf8;
+    padding-top: 80px;
+}
+
+.idea-head h2 {
+    color: #555555;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-bottom: 22px;
+}
+
+.idea-head p {
+    color: #8c8c8c;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+/*===== idea part css ends =====*/
+
+/*===== purchase part css start =====*/
+#purchase {
+    background-image: linear-gradient(to right, #211b19, #4e3427);
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
+.pur_left h3 {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.pur_left span {
+    color: #c7b299;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.pur_left p {
+    color: #615855;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    padding-top: 4px;
+}
+
+.pur-right {
+    padding-top: 20px;
+}
+
+.pur-right a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 21px 38px;
+    border-radius: 3px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+/*===== purchase part css ends =====*/
+
+
+/*===== projects part css start =====*/
+#projects {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.buttons {
+    padding-bottom: 40px;
+}
+
+.buttons a {
+    padding: 10px 17px;
+    border: 1px solid #ebebeb;
+    font-size: 14px;
+    color: #8c8c8c;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 5px;
+    text-transform: capitalize;
+    transition: all linear .3s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buttons a:hover {
+    background: #998675;
+    border: 1px solid #998675;
+    color: #ffffff;
+}
+
+.mixitup-control-active {
+    background: #998675;
+    color: #ffffff !important;
+}
+
+.pro-items {
+    padding-bottom: 30px;
+}
+
+.pro-img {
+    position: relative;
+}
+
+.pro-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.7);
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.pro-img .overlay i {
+    position: relative;
+    color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all linear .3s;
+    font-size: 24px;
+    margin: 0 15px;
+}
+
+.pro-img .overlay i:hover {
+    color: #c7b299;
+}
+
+.pro-text {
+    padding: 30px 28px;
+    background: #fbfaf8;
+    position: relative;
+}
+
+.pro-text:after {
+    position: absolute;
+    content: '';
+    height: 28px;
+    width: 28px;
+    top: -14px;
+    left: 20px;
+    transform: rotate(45deg);
+    background: #fbfaf8;
+    transition: all linear .3s;
+}
+
+.pro-items:hover .overlay {
+    opacity: 1;
+}
+
+.pro-items:hover .pro-text {
+    background: #362f2d;
+}
+
+.pro-items:hover .pro-text:after {
+    background: #362f2d;
+}
+
+.pro-items:hover .pro-text h4 {
+    color: #ffffff;
+}
+
+.pro-items:hover .pro-text p {
+    color: #c7b299;
+}
+
+.pro-text {
+    transition: all linear .3s;
+}
+
+.pro-text h4 {
+    color: #c7b299;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    transition: all linear .3s;
+}
+
+.pro-text p {
+    color: #d1d1d1;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition: all linear .3s;
+    margin-bottom: 0;
+}
+
+.pro_a h5 {
+    padding-top: 20px;
+}
+
+.pro_a a {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 45px;
+    border-radius: 3px;
+    background: #998675;
+    border-bottom: 3px solid #736357;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+
+/*===== projects part css ends =====*/
+
+/*===== video part css start =====*/
+
+#video {
+    background: url(../images/video-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 440px;
+    position: relative;
+}
+
+#video:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(17, 17, 17, 0.5);
+}
+
+.video-head {
+    position: absolute;
+    z-index: 999;
+}
+
+.video-head h2 {
+    color: #ffffff;
+    padding-top: 40px;
+}
+
+.video-head p {
+    color: #ffffff;
+}
+
+.video-head i {
+    font-size: 73px;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/*===== video part css ends =====*/
+/*===== mobile part css text =====*/
+
+.mob_img {
+    padding-top: 80px;
+}
+
+.mob-text {
+    padding-top: 190px;
+}
+
+.mob-text h3 {
+    color: #555555;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.mob-text p {
+    color: #8c8c8c;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.mob-fe {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.mob-fe i {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #c7b299;
+    border-radius: 50%;
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+/*===== mobile part css ends =====*/
+
+
+/*===== counter part css ends =====*/
+#counter {
+    background-image: linear-gradient(to right, #211b19, #4e3427);
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.count-1 h3 {
+    color: #ffffff;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.count-1 p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+/*===== counter part css ends =====*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
