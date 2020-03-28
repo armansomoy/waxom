@@ -29,17 +29,33 @@ h6 {
     margin-bottom: 0px;
 }
 
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /*===== Common css Ends =====*/
 
 /*===== navbar part css start =====*/
 .navbar {
     padding-top: 35px;
     position: absolute;
-    top: 10px;
+    top: 0px;
     left: 0;
     width: 100%;
+    transition:  all linear .3s;
 }
-
+.bg{
+    background: #191919; 
+    position: fixed;
+    animation: menu 1s;
+    width: 100%;
+}
+@keyframes menu{
+    from{top:-50px;}
+    to{top:0px;}
+}
 .navbar-light .navbar-nav .nav-link {
     color: #ffff;
     font-size: 14px;
@@ -47,10 +63,32 @@ h6 {
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
     transition: all linear .3s;
+    position: relative;
 }
-
+.navbar-light .navbar-nav .nav-link:after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #c7b299;
+    opacity: 0;
+    transition: all linear .3s;
+}
+.navbar-light .navbar-nav .nav-link:hover:after{
+    opacity: 1;
+    width: 100%;
+}
 .navbar-light .navbar-nav .nav-link:hover {
     color: #c7b299;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #c7b299;
+}
+.navbar-light .navbar-nav .nav-link.active:after{
+    opacity: 1;
+    width: 100%;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -988,8 +1026,23 @@ h6 {
 .right-side p {
     color: #555555;
     font-size: 13px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-ser if;
     font-weight: 300;
 }
+.dote {
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #353535;
+    color: #fff;
+    font-size: 20px;
+}
 
+.dote:hover {
+    background-color: #353535;
+    color: #fff;
+
+}
 /*===== copyright part css ends =====*/

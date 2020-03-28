@@ -1,5 +1,15 @@
 $(function () {
 
+    //navbar fixed
+    $(window).scroll(function () {
+        var scrolling = $(this).scrollTop();
+        if (scrolling > 200) {
+            $('.navbar').addClass('bg');
+        } else {
+            $('.navbar').removeClass('bg');
+        }
+    });
+
     //banner slider
     $('.slider').slick({
         infinite: true,
@@ -32,7 +42,7 @@ $(function () {
         delay: 20,
         time: 2000
     });
-    
+
     //blog-slider
     $('.blog-slider').slick({
         infinite: true,
@@ -42,7 +52,7 @@ $(function () {
         autoplay: true,
         speed: 1000,
         arrows: true,
-        nextArrow:'.left',
+        nextArrow: '.left',
         prevArrow: '.right',
         centerMode: true,
         centerPadding: false,
@@ -54,6 +64,17 @@ $(function () {
     var mixer = mixitup(containerEl);
 
 
+
+    //dote part js
+
+    $(window).scroll(function () {
+        var scroll = $(this).scrollTop();
+        if (scroll > 700) {
+            $(".dote").show();
+        } else {
+            $(".dote").hide();
+        }
+    });
 
 
 });
