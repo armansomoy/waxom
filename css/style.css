@@ -420,7 +420,7 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 200px;
-    padding-bottom: 440px;
+    padding-bottom: 200px;
     position: relative;
 }
 
@@ -435,7 +435,7 @@ h6 {
 }
 
 .video-head {
-    position: absolute;
+    position: relative;
     z-index: 999;
 }
 
@@ -523,6 +523,7 @@ h6 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .count-1 p {
     color: #ffffff;
     font-size: 14px;
@@ -534,22 +535,461 @@ h6 {
 /*===== counter part css ends =====*/
 
 
+/*===== blog part css start =====*/
+
+#blog {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    position: relative;
+}
+
+.card-title {
+    color: #555555;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+
+.card-text {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 22px;
+    transition: all linear .3s;
+}
+
+.card-body a {
+    color: #c7b299;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+
+.card-body a i {
+    margin-left: 10px;
+    font-size: 12px;
+}
 
 
+.card {
+    position: relative;
+    transition: all linear .3s;
+}
 
+.date {
+    position: absolute;
+    width: 50px;
+    top: 20px;
+    left: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
 
+.top {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    height: 35px;
+    line-height: 35px;
+    background: #363636;
+    transition: all linear .3s;
+}
 
+.bottom {
+    color: #ffffff;
+    font-size: 12px;
+    transition: all linear .3s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    height: 25px;
+    line-height: 25px;
+    background: #252525;
+}
 
+.blog-img {
+    position: relative;
+}
 
+.blog-img .blog-over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.71);
+    opacity: 0;
+    transition: all linear .3s;
+}
 
+.card:hover .blog-over {
+    opacity: 1;
+}
 
+.card:hover .top {
+    background: #c7b299;
+}
 
+.card:hover .bottom {
+    background: #a48d72;
+}
 
+.card:hover .card-title {
+    color: #c7b299;
+}
 
+.card:hover .card-text {
+    color: #ffffff;
+}
 
+.card:hover a {
+    color: #c7b299;
+}
 
+.card:hover {
+    background: #362f2d;
+}
 
+.slick-center .blog-over {
+    opacity: 1;
+}
 
+.slick-center .top {
+    background: #c7b299;
+}
 
+.slick-center .bottom {
+    background: #a48d72;
+}
 
+.slick-center .card-title {
+    color: #c7b299;
+}
 
+.slick-center .card-text {
+    color: #ffffff;
+}
+
+.slick-center a {
+    color: #c7b299;
+}
+
+.slick-center .card {
+    background: #362f2d;
+}
+
+#blog .right {
+    color: #d1d1d1;
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    cursor: pointer;
+}
+
+#blog .left {
+    color: #d1d1d1;
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    cursor: pointer;
+}
+
+#blog .left:hover {
+    color: #cab79f;
+    border: 1px solid #cab79f;
+}
+
+#blog .right:hover {
+    color: #cab79f;
+    border: 1px solid #cab79f;
+}
+
+#blog .right {
+    position: absolute;
+    bottom: 80px;
+    left: 48%;
+}
+
+#blog .left {
+    position: absolute;
+    bottom: 80px;
+    right: 48%;
+}
+
+/*===== blog part css ends =====*/
+
+/*===== client part css start =====*/
+
+#client {
+    background: url(../images/client-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    position: relative;
+}
+
+#client:after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.client-img {
+    position: relative;
+    z-index: 99;
+}
+
+/*===== client part css ends =====*/
+
+/*===== footer part css start =====*/
+#footer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #191919;
+}
+
+.log_part p {
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 30px;
+}
+
+.log_part a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.log_part a i {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.fot-recent h3 {
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.fot-recent .one {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-recent .one h5 {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-recent .one p {
+    color: #555555;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.fot-recent .two {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-recent .two h5 {
+    color: #ffff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-recent .two p {
+    color: #c7b299;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.fot-recent .three h5 {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-recent .three p {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.fot-twitter h3 {
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.fot-twitter .one {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-twitter .one span {
+    color: #00bff3;
+}
+
+.fot-twitter .one h6 {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-twitter .one p {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.fot-twitter .two {
+    border-bottom: 1px solid #363636;
+}
+
+.fot-twitter .two span {
+    color: #00bff3;
+}
+
+.fot-twitter .two h6 {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-twitter .two p {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.fot-twitter .three h6 {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-twitter .three a {
+    color: #959595;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.fot-twitter .three p {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+
+.fot-img h3 {
+    color: #ffff;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.footer-img {
+    padding-bottom: 10px;
+}
+
+/*===== footer part css ends =====*/
+
+/*===== copyright part css start =====*/
+#copyright {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: #111111;
+}
+
+#copyright p {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#copyright .privacy {
+    margin-left: 20px;
+}
+
+#copyright a {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0 12px;
+    border-left: 1px solid #252525;
+
+}
+
+.right-side span {
+    padding-right: 10px;
+    color: #959595;
+    border-right: 1px solid #252525;
+}
+
+.right-side p {
+    color: #555555;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+/*===== copyright part css ends =====*/

@@ -32,6 +32,21 @@ $(function () {
         delay: 20,
         time: 2000
     });
+    
+    //blog-slider
+    $('.blog-slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        dots: false,
+        autoplay: true,
+        speed: 1000,
+        arrows: true,
+        nextArrow:'.left',
+        prevArrow: '.right',
+        centerMode: true,
+        centerPadding: false,
+    });
 
 
     //projects part
