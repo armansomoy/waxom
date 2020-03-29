@@ -27,11 +27,19 @@ $(function () {
     $('.service-slide').slick({
         infinite: true,
         slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToScroll: 1,
         dots: false,
         autoplay: true,
         speed: 1000,
         arrows: false,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+  ]
     });
 
     //video
@@ -47,7 +55,7 @@ $(function () {
     $('.blog-slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         dots: false,
         autoplay: true,
         speed: 1000,
@@ -56,6 +64,14 @@ $(function () {
         prevArrow: '.right',
         centerMode: true,
         centerPadding: false,
+        responsive: [
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+  ]
     });
 
 
