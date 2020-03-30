@@ -1,13 +1,262 @@
-@media (min-width: 576px) and (max-width: 767.98px) {
-    ...
-}
 
-@media (min-width: 768px) and (max-width: 991.98px) {
-    ...
-}
-
+/*======== large device =========*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    ...
+    
+    #banner {
+        height: 830px;
+    }
+    .pur-right a {
+	 margin-left: 0; 
+}
+    .pur_left p {
+	font-size: 16px;
+}
+    
+}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #banner {
+        height: 680px;
+    }
+
+    .banner_item h3 {
+        padding-top: 250px;
+    }
+
+    .banner_item h1 {
+        font-size: 45px;
+    }
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #idea {
+        padding-top: 50px;
+    }
+
+    #purchase {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .pur-right a {
+        font-size: 13px;
+        padding: 19px 35px;
+        margin-left: 0;
+    }
+
+    .pur_left h3 {
+        font-size: 20px;
+    }
+
+    .pur_left p {
+        font-size: 16px;
+    }
+
+    #video {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
+
+    .mob-text {
+        padding-top: 75px;
+    }
+
+    .mob-text h3 {
+        font-size: 26px;
+        padding-bottom: 15px;
+    }
+
+    .mob-fe {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .mob-text p {
+        font-size: 13px;
+        line-height: 29px;
+    }
+
+    .mob-fe i {
+        margin-right: 10px;
+    }
+
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #blog .left {
+        position: absolute;
+        bottom: 50px;
+        right: 51%;
+    }
+
+    #blog .right {
+        position: absolute;
+        bottom: 50px;
+        left: 52%;
+    }
+
+    #client {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .right-side {
+        text-align: center;
+    }
+
+    #copyright p {
+        text-align: center;
+    }
+
+    #copyright {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+}
+
+/*======== small device =========*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-toggler i {
+        font-size: 30px;
+        color: #ffffff;
+        outline: 0;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, .0);
+        border-color: rgba(0, 0, 0, .0);
+    }
+
+    .navbar {
+        padding-top: 5px;
+    }
+
+    .navbar-nav {
+        background: #191919;
+        text-align: center;
+    }
+
+    #banner {
+        height: 680px;
+    }
+
+    .banner_item h3 {
+        padding-top: 250px;
+    }
+
+    .banner_item h1 {
+        font-size: 45px;
+    }
+
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #idea {
+        padding-top: 50px;
+    }
+
+    .pur_left h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .pur_left p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .pur-right {
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    #purchase {
+        padding-bottom: 65px;
+    }
+
+    #projects {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .buttons button {
+        padding: 10px 8px;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    #video {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .mob-text {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .mob-fe {
+        padding-left: 0;
+        padding-top: 0;
+    }
+
+    .count-1 {
+        margin-bottom: 40px;
+    }
+
+    #blog {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    #blog .left {
+        position: absolute;
+        bottom: 50px;
+        right: 51%;
+    }
+
+    #blog .right {
+        position: absolute;
+        bottom: 50px;
+        left: 52%;
+    }
+
+    #client {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+
+    .client-img {
+        padding-bottom: 30px;
+    }
+
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .right-side {
+        text-align: center;
+    }
+
+    #copyright p {
+        text-align: center;
+    }
+
+    #copyright {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 /*======== Xtra small device =========*/
@@ -54,13 +303,14 @@
         padding-top: 50px;
     }
 
+
     .idea-head h2 {
-        font-size: 26px;
+        font-size: 22px;
         padding-bottom: 18px;
     }
 
     .idea-head p {
-        font-size: 14px;
+        font-size: 12px;
         padding-bottom: 18px;
     }
 
@@ -75,7 +325,8 @@
     }
 
     .pur-right {
-        margin-left: 15px;
+        margin-right: 15px;
+        text-align: center;
     }
 
     #purchase {
@@ -98,15 +349,7 @@
         padding-bottom: 100px;
     }
 
-    .idea-head h2 {
-        font-size: 22px;
-        padding-bottom: 18px;
-    }
 
-    .idea-head p {
-        font-size: 12px;
-        padding-bottom: 18px;
-    }
 
     .mob-text {
         padding-top: 50px;
@@ -170,5 +413,9 @@
         padding-top: 30px;
         padding-bottom: 20px;
         background: #111111;
+    }
+
+    .pro_a a {
+        margin-left: 10px;
     }
 }
